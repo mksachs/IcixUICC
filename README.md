@@ -6,7 +6,7 @@ transpose the data. There were optional challenges of loading the data from a
 file and displaying a map (the data is names and addresses) when an item is
 selected. This response covers all of these items.
 
-This project is built using the [angular-seed](https://github.com/angular/angular-seed).
+This project is built using [angular-seed](https://github.com/angular/angular-seed).
 Most of the files come directly from this seed project. The files that I have
 modified or added are listed below.
 
@@ -31,7 +31,7 @@ modified or added are listed below.
         scenarios.js        --> listed all features to test
       unit/
         controllersSpec.js  --> listed all unit tests for controllers
-        directivessSpec.js  --> listed all unit tests for directives
+        directivesSpec.js   --> listed all unit tests for directives
         
 
 ## Running the Coding Challenge
@@ -39,14 +39,16 @@ modified or added are listed below.
 The best way to view the challenge is to install [node.js](http://nodejs.org).
 Once it is installed you can run:
 
+```
 node scripts/web-server.js
+```
 
 You can then navigate to http://localhost:8000/app/index.html to view the 
 challenge.
 
 ## Unit and End-to-End tests
 
-The scenarios.js, controllersSpec.js and directivessSpec.js files listed above
+The scenarios.js, controllersSpec.js and directivesSpec.js files listed above
 contain the frameworks for unit and end-to-end tests. Not all of the tests have
 been fleshed out but the framework will serve to document all of the intended
 functionality. See the documentation at [angular-seed](https://github.com/angular/angular-seed)
