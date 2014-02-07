@@ -1,0 +1,47 @@
+/* app css stylesheet */
+body {
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  height: auto;
+  border-collapse:collapse;
+}
+
+td {
+  padding: 0.3em;
+}
+
+tfoot {
+  border-bottom: 0.1em solid #5E5E5E;
+  border-top: 0.1em solid #5E5E5E;
+}
+
+th {
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #5E5E5E;
+  text-align:left;
+  padding: 0.3em;
+}
+
+td.even, tr.even {
+  background-color: #E3E3E3;
+}
+
+.selected {
+  background-color: #FB5B1F !important;
+  color: #FFFFFF;
+}
+

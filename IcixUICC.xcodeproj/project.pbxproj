@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B8408F4918A2B1B900A5D7C8 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B8408F4A18A2B1B900A5D7C8 /* app.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = app.css; sourceTree = "<group>"; };
+		B8408F4C18A2B1B900A5D7C8 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B8408F4F18A2B1B900A5D7C8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B8408F5118A2B1B900A5D7C8 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		B8408F5218A2B1B900A5D7C8 /* controllers.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = controllers.js; sourceTree = "<group>"; };
+		B8408F5318A2B1B900A5D7C8 /* directives.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = directives.js; sourceTree = "<group>"; };
+		B8408F5418A2B1B900A5D7C8 /* filters.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = filters.js; sourceTree = "<group>"; };
+		B8408F5518A2B1B900A5D7C8 /* services.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = services.js; sourceTree = "<group>"; };
+		B8408F5818A2B1B900A5D7C8 /* angular-animate.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-animate.js"; sourceTree = "<group>"; };
+		B8408F5918A2B1B900A5D7C8 /* angular-animate.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-animate.min.js"; sourceTree = "<group>"; };
+		B8408F5A18A2B1B900A5D7C8 /* angular-animate.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-animate.min.js.map"; sourceTree = "<group>"; };
+		B8408F5B18A2B1B900A5D7C8 /* angular-cookies.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-cookies.js"; sourceTree = "<group>"; };
+		B8408F5C18A2B1B900A5D7C8 /* angular-cookies.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-cookies.min.js"; sourceTree = "<group>"; };
+		B8408F5D18A2B1B900A5D7C8 /* angular-cookies.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-cookies.min.js.map"; sourceTree = "<group>"; };
+		B8408F5E18A2B1B900A5D7C8 /* angular-csp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "angular-csp.css"; sourceTree = "<group>"; };
+		B8408F5F18A2B1B900A5D7C8 /* angular-loader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-loader.js"; sourceTree = "<group>"; };
+		B8408F6018A2B1B900A5D7C8 /* angular-loader.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-loader.min.js"; sourceTree = "<group>"; };
+		B8408F6118A2B1B900A5D7C8 /* angular-loader.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-loader.min.js.map"; sourceTree = "<group>"; };
+		B8408F6218A2B1B900A5D7C8 /* angular-resource.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-resource.js"; sourceTree = "<group>"; };
+		B8408F6318A2B1B900A5D7C8 /* angular-resource.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-resource.min.js"; sourceTree = "<group>"; };
+		B8408F6418A2B1B900A5D7C8 /* angular-resource.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-resource.min.js.map"; sourceTree = "<group>"; };
+		B8408F6518A2B1B900A5D7C8 /* angular-route.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-route.js"; sourceTree = "<group>"; };
+		B8408F6618A2B1B900A5D7C8 /* angular-route.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-route.min.js"; sourceTree = "<group>"; };
+		B8408F6718A2B1B900A5D7C8 /* angular-route.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-route.min.js.map"; sourceTree = "<group>"; };
+		B8408F6818A2B1B900A5D7C8 /* angular-sanitize.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.js"; sourceTree = "<group>"; };
+		B8408F6918A2B1B900A5D7C8 /* angular-sanitize.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.min.js"; sourceTree = "<group>"; };
+		B8408F6A18A2B1B900A5D7C8 /* angular-sanitize.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-sanitize.min.js.map"; sourceTree = "<group>"; };
+		B8408F6B18A2B1B900A5D7C8 /* angular-touch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-touch.js"; sourceTree = "<group>"; };
+		B8408F6C18A2B1B900A5D7C8 /* angular-touch.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-touch.min.js"; sourceTree = "<group>"; };
+		B8408F6D18A2B1B900A5D7C8 /* angular-touch.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "angular-touch.min.js.map"; sourceTree = "<group>"; };
+		B8408F6E18A2B1B900A5D7C8 /* angular.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = angular.js; sourceTree = "<group>"; };
+		B8408F6F18A2B1B900A5D7C8 /* angular.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = angular.min.js; sourceTree = "<group>"; };
+		B8408F7018A2B1B900A5D7C8 /* angular.min.js.gzip */ = {isa = PBXFileReference; lastKnownFileType = file; path = angular.min.js.gzip; sourceTree = "<group>"; };
+		B8408F7118A2B1B900A5D7C8 /* angular.min.js.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = angular.min.js.map; sourceTree = "<group>"; };
+		B8408F7218A2B1B900A5D7C8 /* errors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = errors.json; sourceTree = "<group>"; };
+		B8408F7418A2B1B900A5D7C8 /* angular-locale_af-na.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_af-na.js"; sourceTree = "<group>"; };
+		B8408F7518A2B1B900A5D7C8 /* angular-locale_af-za.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_af-za.js"; sourceTree = "<group>"; };
+		B8408F7618A2B1B900A5D7C8 /* angular-locale_af.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_af.js"; sourceTree = "<group>"; };
+		B8408F7718A2B1B900A5D7C8 /* angular-locale_am-et.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_am-et.js"; sourceTree = "<group>"; };
+		B8408F7818A2B1B900A5D7C8 /* angular-locale_am.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_am.js"; sourceTree = "<group>"; };
+		B8408F7918A2B1B900A5D7C8 /* angular-locale_ar-001.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-001.js"; sourceTree = "<group>"; };
+		B8408F7A18A2B1B900A5D7C8 /* angular-locale_ar-ae.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-ae.js"; sourceTree = "<group>"; };
+		B8408F7B18A2B1B900A5D7C8 /* angular-locale_ar-bh.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-bh.js"; sourceTree = "<group>"; };
+		B8408F7C18A2B1B900A5D7C8 /* angular-locale_ar-dz.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-dz.js"; sourceTree = "<group>"; };
+		B8408F7D18A2B1B900A5D7C8 /* angular-locale_ar-eg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-eg.js"; sourceTree = "<group>"; };
+		B8408F7E18A2B1B900A5D7C8 /* angular-locale_ar-iq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-iq.js"; sourceTree = "<group>"; };
+		B8408F7F18A2B1B900A5D7C8 /* angular-locale_ar-jo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-jo.js"; sourceTree = "<group>"; };
+		B8408F8018A2B1B900A5D7C8 /* angular-locale_ar-kw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-kw.js"; sourceTree = "<group>"; };
+		B8408F8118A2B1B900A5D7C8 /* angular-locale_ar-lb.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-lb.js"; sourceTree = "<group>"; };
+		B8408F8218A2B1B900A5D7C8 /* angular-locale_ar-ly.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-ly.js"; sourceTree = "<group>"; };
+		B8408F8318A2B1B900A5D7C8 /* angular-locale_ar-ma.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-ma.js"; sourceTree = "<group>"; };
+		B8408F8418A2B1B900A5D7C8 /* angular-locale_ar-om.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-om.js"; sourceTree = "<group>"; };
+		B8408F8518A2B1B900A5D7C8 /* angular-locale_ar-qa.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-qa.js"; sourceTree = "<group>"; };
+		B8408F8618A2B1B900A5D7C8 /* angular-locale_ar-sa.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-sa.js"; sourceTree = "<group>"; };
+		B8408F8718A2B1B900A5D7C8 /* angular-locale_ar-sd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-sd.js"; sourceTree = "<group>"; };
+		B8408F8818A2B1B900A5D7C8 /* angular-locale_ar-sy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-sy.js"; sourceTree = "<group>"; };
+		B8408F8918A2B1B900A5D7C8 /* angular-locale_ar-tn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-tn.js"; sourceTree = "<group>"; };
+		B8408F8A18A2B1B900A5D7C8 /* angular-locale_ar-ye.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar-ye.js"; sourceTree = "<group>"; };
+		B8408F8B18A2B1B900A5D7C8 /* angular-locale_ar.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ar.js"; sourceTree = "<group>"; };
+		B8408F8C18A2B1B900A5D7C8 /* angular-locale_bg-bg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_bg-bg.js"; sourceTree = "<group>"; };
+		B8408F8D18A2B1B900A5D7C8 /* angular-locale_bg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_bg.js"; sourceTree = "<group>"; };
+		B8408F8E18A2B1B900A5D7C8 /* angular-locale_bn-bd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_bn-bd.js"; sourceTree = "<group>"; };
+		B8408F8F18A2B1B900A5D7C8 /* angular-locale_bn-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_bn-in.js"; sourceTree = "<group>"; };
+		B8408F9018A2B1B900A5D7C8 /* angular-locale_bn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_bn.js"; sourceTree = "<group>"; };
+		B8408F9118A2B1B900A5D7C8 /* angular-locale_ca-ad.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ca-ad.js"; sourceTree = "<group>"; };
+		B8408F9218A2B1B900A5D7C8 /* angular-locale_ca-es.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ca-es.js"; sourceTree = "<group>"; };
+		B8408F9318A2B1B900A5D7C8 /* angular-locale_ca.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ca.js"; sourceTree = "<group>"; };
+		B8408F9418A2B1B900A5D7C8 /* angular-locale_cs-cz.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_cs-cz.js"; sourceTree = "<group>"; };
+		B8408F9518A2B1B900A5D7C8 /* angular-locale_cs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_cs.js"; sourceTree = "<group>"; };
+		B8408F9618A2B1B900A5D7C8 /* angular-locale_da-dk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_da-dk.js"; sourceTree = "<group>"; };
+		B8408F9718A2B1B900A5D7C8 /* angular-locale_da.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_da.js"; sourceTree = "<group>"; };
+		B8408F9818A2B1B900A5D7C8 /* angular-locale_de-at.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-at.js"; sourceTree = "<group>"; };
+		B8408F9918A2B1B900A5D7C8 /* angular-locale_de-be.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-be.js"; sourceTree = "<group>"; };
+		B8408F9A18A2B1B900A5D7C8 /* angular-locale_de-ch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-ch.js"; sourceTree = "<group>"; };
+		B8408F9B18A2B1B900A5D7C8 /* angular-locale_de-de.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-de.js"; sourceTree = "<group>"; };
+		B8408F9C18A2B1B900A5D7C8 /* angular-locale_de-li.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-li.js"; sourceTree = "<group>"; };
+		B8408F9D18A2B1B900A5D7C8 /* angular-locale_de-lu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de-lu.js"; sourceTree = "<group>"; };
+		B8408F9E18A2B1B900A5D7C8 /* angular-locale_de.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_de.js"; sourceTree = "<group>"; };
+		B8408F9F18A2B1B900A5D7C8 /* angular-locale_el-cy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_el-cy.js"; sourceTree = "<group>"; };
+		B8408FA018A2B1B900A5D7C8 /* angular-locale_el-gr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_el-gr.js"; sourceTree = "<group>"; };
+		B8408FA118A2B1B900A5D7C8 /* angular-locale_el.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_el.js"; sourceTree = "<group>"; };
+		B8408FA218A2B1B900A5D7C8 /* angular-locale_en-as.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-as.js"; sourceTree = "<group>"; };
+		B8408FA318A2B1B900A5D7C8 /* angular-locale_en-au.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-au.js"; sourceTree = "<group>"; };
+		B8408FA418A2B1B900A5D7C8 /* angular-locale_en-bb.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-bb.js"; sourceTree = "<group>"; };
+		B8408FA518A2B1B900A5D7C8 /* angular-locale_en-be.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-be.js"; sourceTree = "<group>"; };
+		B8408FA618A2B1B900A5D7C8 /* angular-locale_en-bm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-bm.js"; sourceTree = "<group>"; };
+		B8408FA718A2B1B900A5D7C8 /* angular-locale_en-bw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-bw.js"; sourceTree = "<group>"; };
+		B8408FA818A2B1B900A5D7C8 /* angular-locale_en-bz.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-bz.js"; sourceTree = "<group>"; };
+		B8408FA918A2B1B900A5D7C8 /* angular-locale_en-ca.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-ca.js"; sourceTree = "<group>"; };
+		B8408FAA18A2B1B900A5D7C8 /* angular-locale_en-dsrt-us.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-dsrt-us.js"; sourceTree = "<group>"; };
+		B8408FAB18A2B1B900A5D7C8 /* angular-locale_en-dsrt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-dsrt.js"; sourceTree = "<group>"; };
+		B8408FAC18A2B1B900A5D7C8 /* angular-locale_en-fm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-fm.js"; sourceTree = "<group>"; };
+		B8408FAD18A2B1B900A5D7C8 /* angular-locale_en-gb.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-gb.js"; sourceTree = "<group>"; };
+		B8408FAE18A2B1B900A5D7C8 /* angular-locale_en-gu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-gu.js"; sourceTree = "<group>"; };
+		B8408FAF18A2B1B900A5D7C8 /* angular-locale_en-gy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-gy.js"; sourceTree = "<group>"; };
+		B8408FB018A2B1B900A5D7C8 /* angular-locale_en-hk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-hk.js"; sourceTree = "<group>"; };
+		B8408FB118A2B1B900A5D7C8 /* angular-locale_en-ie.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-ie.js"; sourceTree = "<group>"; };
+		B8408FB218A2B1B900A5D7C8 /* angular-locale_en-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-in.js"; sourceTree = "<group>"; };
+		B8408FB318A2B1B900A5D7C8 /* angular-locale_en-iso.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-iso.js"; sourceTree = "<group>"; };
+		B8408FB418A2B1B900A5D7C8 /* angular-locale_en-jm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-jm.js"; sourceTree = "<group>"; };
+		B8408FB518A2B1B900A5D7C8 /* angular-locale_en-mh.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-mh.js"; sourceTree = "<group>"; };
+		B8408FB618A2B1B900A5D7C8 /* angular-locale_en-mp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-mp.js"; sourceTree = "<group>"; };
+		B8408FB718A2B1B900A5D7C8 /* angular-locale_en-mt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-mt.js"; sourceTree = "<group>"; };
+		B8408FB818A2B1B900A5D7C8 /* angular-locale_en-mu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-mu.js"; sourceTree = "<group>"; };
+		B8408FB918A2B1B900A5D7C8 /* angular-locale_en-na.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-na.js"; sourceTree = "<group>"; };
+		B8408FBA18A2B1B900A5D7C8 /* angular-locale_en-nz.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-nz.js"; sourceTree = "<group>"; };
+		B8408FBB18A2B1B900A5D7C8 /* angular-locale_en-ph.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-ph.js"; sourceTree = "<group>"; };
+		B8408FBC18A2B1B900A5D7C8 /* angular-locale_en-pk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-pk.js"; sourceTree = "<group>"; };
+		B8408FBD18A2B1B900A5D7C8 /* angular-locale_en-pr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-pr.js"; sourceTree = "<group>"; };
+		B8408FBE18A2B1B900A5D7C8 /* angular-locale_en-pw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-pw.js"; sourceTree = "<group>"; };
+		B8408FBF18A2B1B900A5D7C8 /* angular-locale_en-sg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-sg.js"; sourceTree = "<group>"; };
+		B8408FC018A2B1B900A5D7C8 /* angular-locale_en-tc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-tc.js"; sourceTree = "<group>"; };
+		B8408FC118A2B1B900A5D7C8 /* angular-locale_en-tt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-tt.js"; sourceTree = "<group>"; };
+		B8408FC218A2B1B900A5D7C8 /* angular-locale_en-um.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-um.js"; sourceTree = "<group>"; };
+		B8408FC318A2B1B900A5D7C8 /* angular-locale_en-us.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-us.js"; sourceTree = "<group>"; };
+		B8408FC418A2B1B900A5D7C8 /* angular-locale_en-vg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-vg.js"; sourceTree = "<group>"; };
+		B8408FC518A2B1B900A5D7C8 /* angular-locale_en-vi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-vi.js"; sourceTree = "<group>"; };
+		B8408FC618A2B1B900A5D7C8 /* angular-locale_en-za.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-za.js"; sourceTree = "<group>"; };
+		B8408FC718A2B1B900A5D7C8 /* angular-locale_en-zw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en-zw.js"; sourceTree = "<group>"; };
+		B8408FC818A2B1B900A5D7C8 /* angular-locale_en.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_en.js"; sourceTree = "<group>"; };
+		B8408FC918A2B1B900A5D7C8 /* angular-locale_es-419.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-419.js"; sourceTree = "<group>"; };
+		B8408FCA18A2B1B900A5D7C8 /* angular-locale_es-ar.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ar.js"; sourceTree = "<group>"; };
+		B8408FCB18A2B1B900A5D7C8 /* angular-locale_es-bo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-bo.js"; sourceTree = "<group>"; };
+		B8408FCC18A2B1B900A5D7C8 /* angular-locale_es-cl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-cl.js"; sourceTree = "<group>"; };
+		B8408FCD18A2B1B900A5D7C8 /* angular-locale_es-co.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-co.js"; sourceTree = "<group>"; };
+		B8408FCE18A2B1B900A5D7C8 /* angular-locale_es-cr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-cr.js"; sourceTree = "<group>"; };
+		B8408FCF18A2B1B900A5D7C8 /* angular-locale_es-do.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-do.js"; sourceTree = "<group>"; };
+		B8408FD018A2B1B900A5D7C8 /* angular-locale_es-ea.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ea.js"; sourceTree = "<group>"; };
+		B8408FD118A2B1B900A5D7C8 /* angular-locale_es-ec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ec.js"; sourceTree = "<group>"; };
+		B8408FD218A2B1B900A5D7C8 /* angular-locale_es-es.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-es.js"; sourceTree = "<group>"; };
+		B8408FD318A2B1B900A5D7C8 /* angular-locale_es-gq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-gq.js"; sourceTree = "<group>"; };
+		B8408FD418A2B1B900A5D7C8 /* angular-locale_es-gt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-gt.js"; sourceTree = "<group>"; };
+		B8408FD518A2B1B900A5D7C8 /* angular-locale_es-hn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-hn.js"; sourceTree = "<group>"; };
+		B8408FD618A2B1B900A5D7C8 /* angular-locale_es-ic.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ic.js"; sourceTree = "<group>"; };
+		B8408FD718A2B1B900A5D7C8 /* angular-locale_es-mx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-mx.js"; sourceTree = "<group>"; };
+		B8408FD818A2B1B900A5D7C8 /* angular-locale_es-ni.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ni.js"; sourceTree = "<group>"; };
+		B8408FD918A2B1B900A5D7C8 /* angular-locale_es-pa.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-pa.js"; sourceTree = "<group>"; };
+		B8408FDA18A2B1B900A5D7C8 /* angular-locale_es-pe.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-pe.js"; sourceTree = "<group>"; };
+		B8408FDB18A2B1B900A5D7C8 /* angular-locale_es-pr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-pr.js"; sourceTree = "<group>"; };
+		B8408FDC18A2B1B900A5D7C8 /* angular-locale_es-py.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-py.js"; sourceTree = "<group>"; };
+		B8408FDD18A2B1B900A5D7C8 /* angular-locale_es-sv.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-sv.js"; sourceTree = "<group>"; };
+		B8408FDE18A2B1B900A5D7C8 /* angular-locale_es-us.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-us.js"; sourceTree = "<group>"; };
+		B8408FDF18A2B1B900A5D7C8 /* angular-locale_es-uy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-uy.js"; sourceTree = "<group>"; };
+		B8408FE018A2B1B900A5D7C8 /* angular-locale_es-ve.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es-ve.js"; sourceTree = "<group>"; };
+		B8408FE118A2B1B900A5D7C8 /* angular-locale_es.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_es.js"; sourceTree = "<group>"; };
+		B8408FE218A2B1B900A5D7C8 /* angular-locale_et-ee.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_et-ee.js"; sourceTree = "<group>"; };
+		B8408FE318A2B1B900A5D7C8 /* angular-locale_et.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_et.js"; sourceTree = "<group>"; };
+		B8408FE418A2B1B900A5D7C8 /* angular-locale_eu-es.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_eu-es.js"; sourceTree = "<group>"; };
+		B8408FE518A2B1B900A5D7C8 /* angular-locale_eu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_eu.js"; sourceTree = "<group>"; };
+		B8408FE618A2B1B900A5D7C8 /* angular-locale_fa-af.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fa-af.js"; sourceTree = "<group>"; };
+		B8408FE718A2B1B900A5D7C8 /* angular-locale_fa-ir.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fa-ir.js"; sourceTree = "<group>"; };
+		B8408FE818A2B1B900A5D7C8 /* angular-locale_fa.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fa.js"; sourceTree = "<group>"; };
+		B8408FE918A2B1B900A5D7C8 /* angular-locale_fi-fi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fi-fi.js"; sourceTree = "<group>"; };
+		B8408FEA18A2B1B900A5D7C8 /* angular-locale_fi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fi.js"; sourceTree = "<group>"; };
+		B8408FEB18A2B1B900A5D7C8 /* angular-locale_fil-ph.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fil-ph.js"; sourceTree = "<group>"; };
+		B8408FEC18A2B1B900A5D7C8 /* angular-locale_fil.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fil.js"; sourceTree = "<group>"; };
+		B8408FED18A2B1B900A5D7C8 /* angular-locale_fr-be.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-be.js"; sourceTree = "<group>"; };
+		B8408FEE18A2B1B900A5D7C8 /* angular-locale_fr-bf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-bf.js"; sourceTree = "<group>"; };
+		B8408FEF18A2B1B900A5D7C8 /* angular-locale_fr-bi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-bi.js"; sourceTree = "<group>"; };
+		B8408FF018A2B1B900A5D7C8 /* angular-locale_fr-bj.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-bj.js"; sourceTree = "<group>"; };
+		B8408FF118A2B1B900A5D7C8 /* angular-locale_fr-bl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-bl.js"; sourceTree = "<group>"; };
+		B8408FF218A2B1B900A5D7C8 /* angular-locale_fr-ca.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ca.js"; sourceTree = "<group>"; };
+		B8408FF318A2B1B900A5D7C8 /* angular-locale_fr-cd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-cd.js"; sourceTree = "<group>"; };
+		B8408FF418A2B1B900A5D7C8 /* angular-locale_fr-cf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-cf.js"; sourceTree = "<group>"; };
+		B8408FF518A2B1B900A5D7C8 /* angular-locale_fr-cg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-cg.js"; sourceTree = "<group>"; };
+		B8408FF618A2B1B900A5D7C8 /* angular-locale_fr-ch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ch.js"; sourceTree = "<group>"; };
+		B8408FF718A2B1B900A5D7C8 /* angular-locale_fr-ci.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ci.js"; sourceTree = "<group>"; };
+		B8408FF818A2B1B900A5D7C8 /* angular-locale_fr-cm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-cm.js"; sourceTree = "<group>"; };
+		B8408FF918A2B1B900A5D7C8 /* angular-locale_fr-dj.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-dj.js"; sourceTree = "<group>"; };
+		B8408FFA18A2B1B900A5D7C8 /* angular-locale_fr-fr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-fr.js"; sourceTree = "<group>"; };
+		B8408FFB18A2B1B900A5D7C8 /* angular-locale_fr-ga.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ga.js"; sourceTree = "<group>"; };
+		B8408FFC18A2B1B900A5D7C8 /* angular-locale_fr-gf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-gf.js"; sourceTree = "<group>"; };
+		B8408FFD18A2B1B900A5D7C8 /* angular-locale_fr-gn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-gn.js"; sourceTree = "<group>"; };
+		B8408FFE18A2B1B900A5D7C8 /* angular-locale_fr-gp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-gp.js"; sourceTree = "<group>"; };
+		B8408FFF18A2B1B900A5D7C8 /* angular-locale_fr-gq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-gq.js"; sourceTree = "<group>"; };
+		B840900018A2B1B900A5D7C8 /* angular-locale_fr-km.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-km.js"; sourceTree = "<group>"; };
+		B840900118A2B1B900A5D7C8 /* angular-locale_fr-lu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-lu.js"; sourceTree = "<group>"; };
+		B840900218A2B1B900A5D7C8 /* angular-locale_fr-mc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-mc.js"; sourceTree = "<group>"; };
+		B840900318A2B1B900A5D7C8 /* angular-locale_fr-mf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-mf.js"; sourceTree = "<group>"; };
+		B840900418A2B1B900A5D7C8 /* angular-locale_fr-mg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-mg.js"; sourceTree = "<group>"; };
+		B840900518A2B1B900A5D7C8 /* angular-locale_fr-ml.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ml.js"; sourceTree = "<group>"; };
+		B840900618A2B1B900A5D7C8 /* angular-locale_fr-mq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-mq.js"; sourceTree = "<group>"; };
+		B840900718A2B1B900A5D7C8 /* angular-locale_fr-ne.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-ne.js"; sourceTree = "<group>"; };
+		B840900818A2B1B900A5D7C8 /* angular-locale_fr-re.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-re.js"; sourceTree = "<group>"; };
+		B840900918A2B1B900A5D7C8 /* angular-locale_fr-yt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr-yt.js"; sourceTree = "<group>"; };
+		B840900A18A2B1B900A5D7C8 /* angular-locale_fr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_fr.js"; sourceTree = "<group>"; };
+		B840900B18A2B1B900A5D7C8 /* angular-locale_gl-es.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gl-es.js"; sourceTree = "<group>"; };
+		B840900C18A2B1B900A5D7C8 /* angular-locale_gl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gl.js"; sourceTree = "<group>"; };
+		B840900D18A2B1B900A5D7C8 /* angular-locale_gsw-ch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gsw-ch.js"; sourceTree = "<group>"; };
+		B840900E18A2B1B900A5D7C8 /* angular-locale_gsw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gsw.js"; sourceTree = "<group>"; };
+		B840900F18A2B1B900A5D7C8 /* angular-locale_gu-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gu-in.js"; sourceTree = "<group>"; };
+		B840901018A2B1B900A5D7C8 /* angular-locale_gu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_gu.js"; sourceTree = "<group>"; };
+		B840901118A2B1B900A5D7C8 /* angular-locale_he-il.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_he-il.js"; sourceTree = "<group>"; };
+		B840901218A2B1B900A5D7C8 /* angular-locale_he.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_he.js"; sourceTree = "<group>"; };
+		B840901318A2B1B900A5D7C8 /* angular-locale_hi-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hi-in.js"; sourceTree = "<group>"; };
+		B840901418A2B1B900A5D7C8 /* angular-locale_hi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hi.js"; sourceTree = "<group>"; };
+		B840901518A2B1B900A5D7C8 /* angular-locale_hr-hr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hr-hr.js"; sourceTree = "<group>"; };
+		B840901618A2B1B900A5D7C8 /* angular-locale_hr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hr.js"; sourceTree = "<group>"; };
+		B840901718A2B1B900A5D7C8 /* angular-locale_hu-hu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hu-hu.js"; sourceTree = "<group>"; };
+		B840901818A2B1B900A5D7C8 /* angular-locale_hu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_hu.js"; sourceTree = "<group>"; };
+		B840901918A2B1B900A5D7C8 /* angular-locale_id-id.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_id-id.js"; sourceTree = "<group>"; };
+		B840901A18A2B1B900A5D7C8 /* angular-locale_id.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_id.js"; sourceTree = "<group>"; };
+		B840901B18A2B1B900A5D7C8 /* angular-locale_in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_in.js"; sourceTree = "<group>"; };
+		B840901C18A2B1B900A5D7C8 /* angular-locale_is-is.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_is-is.js"; sourceTree = "<group>"; };
+		B840901D18A2B1B900A5D7C8 /* angular-locale_is.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_is.js"; sourceTree = "<group>"; };
+		B840901E18A2B1B900A5D7C8 /* angular-locale_it-it.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_it-it.js"; sourceTree = "<group>"; };
+		B840901F18A2B1B900A5D7C8 /* angular-locale_it-sm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_it-sm.js"; sourceTree = "<group>"; };
+		B840902018A2B1B900A5D7C8 /* angular-locale_it.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_it.js"; sourceTree = "<group>"; };
+		B840902118A2B1B900A5D7C8 /* angular-locale_iw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_iw.js"; sourceTree = "<group>"; };
+		B840902218A2B1B900A5D7C8 /* angular-locale_ja-jp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ja-jp.js"; sourceTree = "<group>"; };
+		B840902318A2B1B900A5D7C8 /* angular-locale_ja.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ja.js"; sourceTree = "<group>"; };
+		B840902418A2B1B900A5D7C8 /* angular-locale_kn-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_kn-in.js"; sourceTree = "<group>"; };
+		B840902518A2B1B900A5D7C8 /* angular-locale_kn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_kn.js"; sourceTree = "<group>"; };
+		B840902618A2B1B900A5D7C8 /* angular-locale_ko-kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ko-kr.js"; sourceTree = "<group>"; };
+		B840902718A2B1B900A5D7C8 /* angular-locale_ko.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ko.js"; sourceTree = "<group>"; };
+		B840902818A2B1B900A5D7C8 /* angular-locale_ln-cd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ln-cd.js"; sourceTree = "<group>"; };
+		B840902918A2B1B900A5D7C8 /* angular-locale_ln.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ln.js"; sourceTree = "<group>"; };
+		B840902A18A2B1B900A5D7C8 /* angular-locale_lt-lt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_lt-lt.js"; sourceTree = "<group>"; };
+		B840902B18A2B1B900A5D7C8 /* angular-locale_lt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_lt.js"; sourceTree = "<group>"; };
+		B840902C18A2B1B900A5D7C8 /* angular-locale_lv-lv.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_lv-lv.js"; sourceTree = "<group>"; };
+		B840902D18A2B1B900A5D7C8 /* angular-locale_lv.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_lv.js"; sourceTree = "<group>"; };
+		B840902E18A2B1B900A5D7C8 /* angular-locale_ml-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ml-in.js"; sourceTree = "<group>"; };
+		B840902F18A2B1B900A5D7C8 /* angular-locale_ml.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ml.js"; sourceTree = "<group>"; };
+		B840903018A2B1B900A5D7C8 /* angular-locale_mr-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_mr-in.js"; sourceTree = "<group>"; };
+		B840903118A2B1B900A5D7C8 /* angular-locale_mr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_mr.js"; sourceTree = "<group>"; };
+		B840903218A2B1B900A5D7C8 /* angular-locale_ms-my.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ms-my.js"; sourceTree = "<group>"; };
+		B840903318A2B1B900A5D7C8 /* angular-locale_ms.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ms.js"; sourceTree = "<group>"; };
+		B840903418A2B1B900A5D7C8 /* angular-locale_mt-mt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_mt-mt.js"; sourceTree = "<group>"; };
+		B840903518A2B1B900A5D7C8 /* angular-locale_mt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_mt.js"; sourceTree = "<group>"; };
+		B840903618A2B1B900A5D7C8 /* angular-locale_nl-cw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_nl-cw.js"; sourceTree = "<group>"; };
+		B840903718A2B1B900A5D7C8 /* angular-locale_nl-nl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_nl-nl.js"; sourceTree = "<group>"; };
+		B840903818A2B1BA00A5D7C8 /* angular-locale_nl-sx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_nl-sx.js"; sourceTree = "<group>"; };
+		B840903918A2B1BA00A5D7C8 /* angular-locale_nl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_nl.js"; sourceTree = "<group>"; };
+		B840903A18A2B1BA00A5D7C8 /* angular-locale_no.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_no.js"; sourceTree = "<group>"; };
+		B840903B18A2B1BA00A5D7C8 /* angular-locale_or-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_or-in.js"; sourceTree = "<group>"; };
+		B840903C18A2B1BA00A5D7C8 /* angular-locale_or.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_or.js"; sourceTree = "<group>"; };
+		B840903D18A2B1BA00A5D7C8 /* angular-locale_pl-pl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_pl-pl.js"; sourceTree = "<group>"; };
+		B840903E18A2B1BA00A5D7C8 /* angular-locale_pl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_pl.js"; sourceTree = "<group>"; };
+		B840903F18A2B1BA00A5D7C8 /* angular-locale_pt-br.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_pt-br.js"; sourceTree = "<group>"; };
+		B840904018A2B1BA00A5D7C8 /* angular-locale_pt-pt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_pt-pt.js"; sourceTree = "<group>"; };
+		B840904118A2B1BA00A5D7C8 /* angular-locale_pt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_pt.js"; sourceTree = "<group>"; };
+		B840904218A2B1BA00A5D7C8 /* angular-locale_ro-ro.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ro-ro.js"; sourceTree = "<group>"; };
+		B840904318A2B1BA00A5D7C8 /* angular-locale_ro.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ro.js"; sourceTree = "<group>"; };
+		B840904418A2B1BA00A5D7C8 /* angular-locale_ru-ru.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ru-ru.js"; sourceTree = "<group>"; };
+		B840904518A2B1BA00A5D7C8 /* angular-locale_ru.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ru.js"; sourceTree = "<group>"; };
+		B840904618A2B1BA00A5D7C8 /* angular-locale_sk-sk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sk-sk.js"; sourceTree = "<group>"; };
+		B840904718A2B1BA00A5D7C8 /* angular-locale_sk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sk.js"; sourceTree = "<group>"; };
+		B840904818A2B1BA00A5D7C8 /* angular-locale_sl-si.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sl-si.js"; sourceTree = "<group>"; };
+		B840904918A2B1BA00A5D7C8 /* angular-locale_sl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sl.js"; sourceTree = "<group>"; };
+		B840904A18A2B1BA00A5D7C8 /* angular-locale_sq-al.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sq-al.js"; sourceTree = "<group>"; };
+		B840904B18A2B1BA00A5D7C8 /* angular-locale_sq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sq.js"; sourceTree = "<group>"; };
+		B840904C18A2B1BA00A5D7C8 /* angular-locale_sr-cyrl-rs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sr-cyrl-rs.js"; sourceTree = "<group>"; };
+		B840904D18A2B1BA00A5D7C8 /* angular-locale_sr-latn-rs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sr-latn-rs.js"; sourceTree = "<group>"; };
+		B840904E18A2B1BA00A5D7C8 /* angular-locale_sr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sr.js"; sourceTree = "<group>"; };
+		B840904F18A2B1BA00A5D7C8 /* angular-locale_sv-se.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sv-se.js"; sourceTree = "<group>"; };
+		B840905018A2B1BA00A5D7C8 /* angular-locale_sv.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sv.js"; sourceTree = "<group>"; };
+		B840905118A2B1BA00A5D7C8 /* angular-locale_sw-tz.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sw-tz.js"; sourceTree = "<group>"; };
+		B840905218A2B1BA00A5D7C8 /* angular-locale_sw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_sw.js"; sourceTree = "<group>"; };
+		B840905318A2B1BA00A5D7C8 /* angular-locale_ta-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ta-in.js"; sourceTree = "<group>"; };
+		B840905418A2B1BA00A5D7C8 /* angular-locale_ta.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ta.js"; sourceTree = "<group>"; };
+		B840905518A2B1BA00A5D7C8 /* angular-locale_te-in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_te-in.js"; sourceTree = "<group>"; };
+		B840905618A2B1BA00A5D7C8 /* angular-locale_te.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_te.js"; sourceTree = "<group>"; };
+		B840905718A2B1BA00A5D7C8 /* angular-locale_th-th.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_th-th.js"; sourceTree = "<group>"; };
+		B840905818A2B1BA00A5D7C8 /* angular-locale_th.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_th.js"; sourceTree = "<group>"; };
+		B840905918A2B1BA00A5D7C8 /* angular-locale_tl.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_tl.js"; sourceTree = "<group>"; };
+		B840905A18A2B1BA00A5D7C8 /* angular-locale_tr-tr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_tr-tr.js"; sourceTree = "<group>"; };
+		B840905B18A2B1BA00A5D7C8 /* angular-locale_tr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_tr.js"; sourceTree = "<group>"; };
+		B840905C18A2B1BA00A5D7C8 /* angular-locale_uk-ua.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_uk-ua.js"; sourceTree = "<group>"; };
+		B840905D18A2B1BA00A5D7C8 /* angular-locale_uk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_uk.js"; sourceTree = "<group>"; };
+		B840905E18A2B1BA00A5D7C8 /* angular-locale_ur-pk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ur-pk.js"; sourceTree = "<group>"; };
+		B840905F18A2B1BA00A5D7C8 /* angular-locale_ur.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_ur.js"; sourceTree = "<group>"; };
+		B840906018A2B1BA00A5D7C8 /* angular-locale_vi-vn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_vi-vn.js"; sourceTree = "<group>"; };
+		B840906118A2B1BA00A5D7C8 /* angular-locale_vi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_vi.js"; sourceTree = "<group>"; };
+		B840906218A2B1BA00A5D7C8 /* angular-locale_zh-cn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zh-cn.js"; sourceTree = "<group>"; };
+		B840906318A2B1BA00A5D7C8 /* angular-locale_zh-hans-cn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zh-hans-cn.js"; sourceTree = "<group>"; };
+		B840906418A2B1BA00A5D7C8 /* angular-locale_zh-hk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zh-hk.js"; sourceTree = "<group>"; };
+		B840906518A2B1BA00A5D7C8 /* angular-locale_zh-tw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zh-tw.js"; sourceTree = "<group>"; };
+		B840906618A2B1BA00A5D7C8 /* angular-locale_zh.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zh.js"; sourceTree = "<group>"; };
+		B840906718A2B1BA00A5D7C8 /* angular-locale_zu-za.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zu-za.js"; sourceTree = "<group>"; };
+		B840906818A2B1BA00A5D7C8 /* angular-locale_zu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-locale_zu.js"; sourceTree = "<group>"; };
+		B840906918A2B1BA00A5D7C8 /* version.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = version.json; sourceTree = "<group>"; };
+		B840906A18A2B1BA00A5D7C8 /* version.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
+		B840906C18A2B1BA00A5D7C8 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B840906D18A2B1BA00A5D7C8 /* list.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = list.html; sourceTree = "<group>"; };
+		B840907018A2B1BA00A5D7C8 /* karma-e2e.conf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "karma-e2e.conf.js"; sourceTree = "<group>"; };
+		B840907118A2B1BA00A5D7C8 /* karma.conf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = karma.conf.js; sourceTree = "<group>"; };
+		B840907218A2B1BA00A5D7C8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B840907418A2B1BA00A5D7C8 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B840907518A2B1BA00A5D7C8 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		B840907618A2B1BA00A5D7C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B840907818A2B1BA00A5D7C8 /* e2e-test.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = "e2e-test.bat"; sourceTree = "<group>"; };
+		B840907918A2B1BA00A5D7C8 /* e2e-test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "e2e-test.sh"; sourceTree = "<group>"; };
+		B840907A18A2B1BA00A5D7C8 /* test-all.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "test-all.sh"; sourceTree = "<group>"; };
+		B840907B18A2B1BA00A5D7C8 /* test.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.bat; sourceTree = "<group>"; };
+		B840907C18A2B1BA00A5D7C8 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		B840907D18A2B1BA00A5D7C8 /* update-angular.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "update-angular.sh"; sourceTree = "<group>"; };
+		B840907E18A2B1BA00A5D7C8 /* watchr.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = watchr.rb; sourceTree = "<group>"; };
+		B840907F18A2B1BA00A5D7C8 /* web-server.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "web-server.js"; sourceTree = "<group>"; };
+		B840908218A2B1BA00A5D7C8 /* runner.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = runner.html; sourceTree = "<group>"; };
+		B840908318A2B1BA00A5D7C8 /* scenarios.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scenarios.js; sourceTree = "<group>"; };
+		B840908618A2B1BA00A5D7C8 /* angular-mocks.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-mocks.js"; sourceTree = "<group>"; };
+		B840908718A2B1BA00A5D7C8 /* angular-scenario.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "angular-scenario.js"; sourceTree = "<group>"; };
+		B840908818A2B1BA00A5D7C8 /* version.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
+		B840908A18A2B1BA00A5D7C8 /* controllersSpec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = controllersSpec.js; sourceTree = "<group>"; };
+		B840908B18A2B1BA00A5D7C8 /* directivesSpec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = directivesSpec.js; sourceTree = "<group>"; };
+		B840908C18A2B1BA00A5D7C8 /* filtersSpec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = filtersSpec.js; sourceTree = "<group>"; };
+		B840908D18A2B1BA00A5D7C8 /* servicesSpec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = servicesSpec.js; sourceTree = "<group>"; };
+		B840908F18A2C01C00A5D7C8 /* data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		B840909118A2C05100A5D7C8 /* csv-json.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "csv-json.py"; sourceTree = "<group>"; };
+		B840909218A2CCDD00A5D7C8 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B8408F4018A2B18D00A5D7C8 = {
+			isa = PBXGroup;
+			children = (
+				B8408F4718A2B1B900A5D7C8 /* app */,
+				B840906F18A2B1BA00A5D7C8 /* config */,
+				B840907218A2B1BA00A5D7C8 /* LICENSE */,
+				B840907318A2B1BA00A5D7C8 /* logs */,
+				B840907518A2B1BA00A5D7C8 /* package.json */,
+				B840907618A2B1BA00A5D7C8 /* README.md */,
+				B840907718A2B1BA00A5D7C8 /* scripts */,
+				B840908018A2B1BA00A5D7C8 /* test */,
+			);
+			sourceTree = "<group>";
+		};
+		B8408F4718A2B1B900A5D7C8 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				B840909018A2C03900A5D7C8 /* python */,
+				B840908E18A2C01C00A5D7C8 /* data */,
+				B8408F4818A2B1B900A5D7C8 /* css */,
+				B8408F4B18A2B1B900A5D7C8 /* img */,
+				B8408F4F18A2B1B900A5D7C8 /* index.html */,
+				B8408F5018A2B1B900A5D7C8 /* js */,
+				B8408F5618A2B1B900A5D7C8 /* lib */,
+				B840906B18A2B1BA00A5D7C8 /* partials */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		B8408F4818A2B1B900A5D7C8 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F4918A2B1B900A5D7C8 /* .gitkeep */,
+				B8408F4A18A2B1B900A5D7C8 /* app.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		B8408F4B18A2B1B900A5D7C8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F4C18A2B1B900A5D7C8 /* .gitkeep */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		B8408F5018A2B1B900A5D7C8 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F5118A2B1B900A5D7C8 /* app.js */,
+				B8408F5218A2B1B900A5D7C8 /* controllers.js */,
+				B8408F5318A2B1B900A5D7C8 /* directives.js */,
+				B8408F5418A2B1B900A5D7C8 /* filters.js */,
+				B8408F5518A2B1B900A5D7C8 /* services.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		B8408F5618A2B1B900A5D7C8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F5718A2B1B900A5D7C8 /* angular */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B8408F5718A2B1B900A5D7C8 /* angular */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F5818A2B1B900A5D7C8 /* angular-animate.js */,
+				B8408F5918A2B1B900A5D7C8 /* angular-animate.min.js */,
+				B8408F5A18A2B1B900A5D7C8 /* angular-animate.min.js.map */,
+				B8408F5B18A2B1B900A5D7C8 /* angular-cookies.js */,
+				B8408F5C18A2B1B900A5D7C8 /* angular-cookies.min.js */,
+				B8408F5D18A2B1B900A5D7C8 /* angular-cookies.min.js.map */,
+				B8408F5E18A2B1B900A5D7C8 /* angular-csp.css */,
+				B8408F5F18A2B1B900A5D7C8 /* angular-loader.js */,
+				B8408F6018A2B1B900A5D7C8 /* angular-loader.min.js */,
+				B8408F6118A2B1B900A5D7C8 /* angular-loader.min.js.map */,
+				B8408F6218A2B1B900A5D7C8 /* angular-resource.js */,
+				B8408F6318A2B1B900A5D7C8 /* angular-resource.min.js */,
+				B8408F6418A2B1B900A5D7C8 /* angular-resource.min.js.map */,
+				B8408F6518A2B1B900A5D7C8 /* angular-route.js */,
+				B8408F6618A2B1B900A5D7C8 /* angular-route.min.js */,
+				B8408F6718A2B1B900A5D7C8 /* angular-route.min.js.map */,
+				B8408F6818A2B1B900A5D7C8 /* angular-sanitize.js */,
+				B8408F6918A2B1B900A5D7C8 /* angular-sanitize.min.js */,
+				B8408F6A18A2B1B900A5D7C8 /* angular-sanitize.min.js.map */,
+				B8408F6B18A2B1B900A5D7C8 /* angular-touch.js */,
+				B8408F6C18A2B1B900A5D7C8 /* angular-touch.min.js */,
+				B8408F6D18A2B1B900A5D7C8 /* angular-touch.min.js.map */,
+				B8408F6E18A2B1B900A5D7C8 /* angular.js */,
+				B8408F6F18A2B1B900A5D7C8 /* angular.min.js */,
+				B8408F7018A2B1B900A5D7C8 /* angular.min.js.gzip */,
+				B8408F7118A2B1B900A5D7C8 /* angular.min.js.map */,
+				B8408F7218A2B1B900A5D7C8 /* errors.json */,
+				B8408F7318A2B1B900A5D7C8 /* i18n */,
+				B840906918A2B1BA00A5D7C8 /* version.json */,
+				B840906A18A2B1BA00A5D7C8 /* version.txt */,
+			);
+			path = angular;
+			sourceTree = "<group>";
+		};
+		B8408F7318A2B1B900A5D7C8 /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				B8408F7418A2B1B900A5D7C8 /* angular-locale_af-na.js */,
+				B8408F7518A2B1B900A5D7C8 /* angular-locale_af-za.js */,
+				B8408F7618A2B1B900A5D7C8 /* angular-locale_af.js */,
+				B8408F7718A2B1B900A5D7C8 /* angular-locale_am-et.js */,
+				B8408F7818A2B1B900A5D7C8 /* angular-locale_am.js */,
+				B8408F7918A2B1B900A5D7C8 /* angular-locale_ar-001.js */,
+				B8408F7A18A2B1B900A5D7C8 /* angular-locale_ar-ae.js */,
+				B8408F7B18A2B1B900A5D7C8 /* angular-locale_ar-bh.js */,
+				B8408F7C18A2B1B900A5D7C8 /* angular-locale_ar-dz.js */,
+				B8408F7D18A2B1B900A5D7C8 /* angular-locale_ar-eg.js */,
+				B8408F7E18A2B1B900A5D7C8 /* angular-locale_ar-iq.js */,
+				B8408F7F18A2B1B900A5D7C8 /* angular-locale_ar-jo.js */,
+				B8408F8018A2B1B900A5D7C8 /* angular-locale_ar-kw.js */,
+				B8408F8118A2B1B900A5D7C8 /* angular-locale_ar-lb.js */,
+				B8408F8218A2B1B900A5D7C8 /* angular-locale_ar-ly.js */,
+				B8408F8318A2B1B900A5D7C8 /* angular-locale_ar-ma.js */,
+				B8408F8418A2B1B900A5D7C8 /* angular-locale_ar-om.js */,
+				B8408F8518A2B1B900A5D7C8 /* angular-locale_ar-qa.js */,
+				B8408F8618A2B1B900A5D7C8 /* angular-locale_ar-sa.js */,
+				B8408F8718A2B1B900A5D7C8 /* angular-locale_ar-sd.js */,
+				B8408F8818A2B1B900A5D7C8 /* angular-locale_ar-sy.js */,
+				B8408F8918A2B1B900A5D7C8 /* angular-locale_ar-tn.js */,
+				B8408F8A18A2B1B900A5D7C8 /* angular-locale_ar-ye.js */,
+				B8408F8B18A2B1B900A5D7C8 /* angular-locale_ar.js */,
+				B8408F8C18A2B1B900A5D7C8 /* angular-locale_bg-bg.js */,
+				B8408F8D18A2B1B900A5D7C8 /* angular-locale_bg.js */,
+				B8408F8E18A2B1B900A5D7C8 /* angular-locale_bn-bd.js */,
+				B8408F8F18A2B1B900A5D7C8 /* angular-locale_bn-in.js */,
+				B8408F9018A2B1B900A5D7C8 /* angular-locale_bn.js */,
+				B8408F9118A2B1B900A5D7C8 /* angular-locale_ca-ad.js */,
+				B8408F9218A2B1B900A5D7C8 /* angular-locale_ca-es.js */,
+				B8408F9318A2B1B900A5D7C8 /* angular-locale_ca.js */,
+				B8408F9418A2B1B900A5D7C8 /* angular-locale_cs-cz.js */,
+				B8408F9518A2B1B900A5D7C8 /* angular-locale_cs.js */,
+				B8408F9618A2B1B900A5D7C8 /* angular-locale_da-dk.js */,
+				B8408F9718A2B1B900A5D7C8 /* angular-locale_da.js */,
+				B8408F9818A2B1B900A5D7C8 /* angular-locale_de-at.js */,
+				B8408F9918A2B1B900A5D7C8 /* angular-locale_de-be.js */,
+				B8408F9A18A2B1B900A5D7C8 /* angular-locale_de-ch.js */,
+				B8408F9B18A2B1B900A5D7C8 /* angular-locale_de-de.js */,
+				B8408F9C18A2B1B900A5D7C8 /* angular-locale_de-li.js */,
+				B8408F9D18A2B1B900A5D7C8 /* angular-locale_de-lu.js */,
+				B8408F9E18A2B1B900A5D7C8 /* angular-locale_de.js */,
+				B8408F9F18A2B1B900A5D7C8 /* angular-locale_el-cy.js */,
+				B8408FA018A2B1B900A5D7C8 /* angular-locale_el-gr.js */,
+				B8408FA118A2B1B900A5D7C8 /* angular-locale_el.js */,
+				B8408FA218A2B1B900A5D7C8 /* angular-locale_en-as.js */,
+				B8408FA318A2B1B900A5D7C8 /* angular-locale_en-au.js */,
+				B8408FA418A2B1B900A5D7C8 /* angular-locale_en-bb.js */,
+				B8408FA518A2B1B900A5D7C8 /* angular-locale_en-be.js */,
+				B8408FA618A2B1B900A5D7C8 /* angular-locale_en-bm.js */,
+				B8408FA718A2B1B900A5D7C8 /* angular-locale_en-bw.js */,
+				B8408FA818A2B1B900A5D7C8 /* angular-locale_en-bz.js */,
+				B8408FA918A2B1B900A5D7C8 /* angular-locale_en-ca.js */,
+				B8408FAA18A2B1B900A5D7C8 /* angular-locale_en-dsrt-us.js */,
+				B8408FAB18A2B1B900A5D7C8 /* angular-locale_en-dsrt.js */,
+				B8408FAC18A2B1B900A5D7C8 /* angular-locale_en-fm.js */,
+				B8408FAD18A2B1B900A5D7C8 /* angular-locale_en-gb.js */,
+				B8408FAE18A2B1B900A5D7C8 /* angular-locale_en-gu.js */,
+				B8408FAF18A2B1B900A5D7C8 /* angular-locale_en-gy.js */,
+				B8408FB018A2B1B900A5D7C8 /* angular-locale_en-hk.js */,
+				B8408FB118A2B1B900A5D7C8 /* angular-locale_en-ie.js */,
+				B8408FB218A2B1B900A5D7C8 /* angular-locale_en-in.js */,
+				B8408FB318A2B1B900A5D7C8 /* angular-locale_en-iso.js */,
+				B8408FB418A2B1B900A5D7C8 /* angular-locale_en-jm.js */,
+				B8408FB518A2B1B900A5D7C8 /* angular-locale_en-mh.js */,
+				B8408FB618A2B1B900A5D7C8 /* angular-locale_en-mp.js */,
+				B8408FB718A2B1B900A5D7C8 /* angular-locale_en-mt.js */,
+				B8408FB818A2B1B900A5D7C8 /* angular-locale_en-mu.js */,
+				B8408FB918A2B1B900A5D7C8 /* angular-locale_en-na.js */,
+				B8408FBA18A2B1B900A5D7C8 /* angular-locale_en-nz.js */,
+				B8408FBB18A2B1B900A5D7C8 /* angular-locale_en-ph.js */,
+				B8408FBC18A2B1B900A5D7C8 /* angular-locale_en-pk.js */,
+				B8408FBD18A2B1B900A5D7C8 /* angular-locale_en-pr.js */,
+				B8408FBE18A2B1B900A5D7C8 /* angular-locale_en-pw.js */,
+				B8408FBF18A2B1B900A5D7C8 /* angular-locale_en-sg.js */,
+				B8408FC018A2B1B900A5D7C8 /* angular-locale_en-tc.js */,
+				B8408FC118A2B1B900A5D7C8 /* angular-locale_en-tt.js */,
+				B8408FC218A2B1B900A5D7C8 /* angular-locale_en-um.js */,
+				B8408FC318A2B1B900A5D7C8 /* angular-locale_en-us.js */,
+				B8408FC418A2B1B900A5D7C8 /* angular-locale_en-vg.js */,
+				B8408FC518A2B1B900A5D7C8 /* angular-locale_en-vi.js */,
+				B8408FC618A2B1B900A5D7C8 /* angular-locale_en-za.js */,
+				B8408FC718A2B1B900A5D7C8 /* angular-locale_en-zw.js */,
+				B8408FC818A2B1B900A5D7C8 /* angular-locale_en.js */,
+				B8408FC918A2B1B900A5D7C8 /* angular-locale_es-419.js */,
+				B8408FCA18A2B1B900A5D7C8 /* angular-locale_es-ar.js */,
+				B8408FCB18A2B1B900A5D7C8 /* angular-locale_es-bo.js */,
+				B8408FCC18A2B1B900A5D7C8 /* angular-locale_es-cl.js */,
+				B8408FCD18A2B1B900A5D7C8 /* angular-locale_es-co.js */,
+				B8408FCE18A2B1B900A5D7C8 /* angular-locale_es-cr.js */,
+				B8408FCF18A2B1B900A5D7C8 /* angular-locale_es-do.js */,
+				B8408FD018A2B1B900A5D7C8 /* angular-locale_es-ea.js */,
+				B8408FD118A2B1B900A5D7C8 /* angular-locale_es-ec.js */,
+				B8408FD218A2B1B900A5D7C8 /* angular-locale_es-es.js */,
+				B8408FD318A2B1B900A5D7C8 /* angular-locale_es-gq.js */,
+				B8408FD418A2B1B900A5D7C8 /* angular-locale_es-gt.js */,
+				B8408FD518A2B1B900A5D7C8 /* angular-locale_es-hn.js */,
+				B8408FD618A2B1B900A5D7C8 /* angular-locale_es-ic.js */,
+				B8408FD718A2B1B900A5D7C8 /* angular-locale_es-mx.js */,
+				B8408FD818A2B1B900A5D7C8 /* angular-locale_es-ni.js */,
+				B8408FD918A2B1B900A5D7C8 /* angular-locale_es-pa.js */,
+				B8408FDA18A2B1B900A5D7C8 /* angular-locale_es-pe.js */,
+				B8408FDB18A2B1B900A5D7C8 /* angular-locale_es-pr.js */,
+				B8408FDC18A2B1B900A5D7C8 /* angular-locale_es-py.js */,
+				B8408FDD18A2B1B900A5D7C8 /* angular-locale_es-sv.js */,
+				B8408FDE18A2B1B900A5D7C8 /* angular-locale_es-us.js */,
+				B8408FDF18A2B1B900A5D7C8 /* angular-locale_es-uy.js */,
+				B8408FE018A2B1B900A5D7C8 /* angular-locale_es-ve.js */,
+				B8408FE118A2B1B900A5D7C8 /* angular-locale_es.js */,
+				B8408FE218A2B1B900A5D7C8 /* angular-locale_et-ee.js */,
+				B8408FE318A2B1B900A5D7C8 /* angular-locale_et.js */,
+				B8408FE418A2B1B900A5D7C8 /* angular-locale_eu-es.js */,
+				B8408FE518A2B1B900A5D7C8 /* angular-locale_eu.js */,
+				B8408FE618A2B1B900A5D7C8 /* angular-locale_fa-af.js */,
+				B8408FE718A2B1B900A5D7C8 /* angular-locale_fa-ir.js */,
+				B8408FE818A2B1B900A5D7C8 /* angular-locale_fa.js */,
+				B8408FE918A2B1B900A5D7C8 /* angular-locale_fi-fi.js */,
+				B8408FEA18A2B1B900A5D7C8 /* angular-locale_fi.js */,
+				B8408FEB18A2B1B900A5D7C8 /* angular-locale_fil-ph.js */,
+				B8408FEC18A2B1B900A5D7C8 /* angular-locale_fil.js */,
+				B8408FED18A2B1B900A5D7C8 /* angular-locale_fr-be.js */,
+				B8408FEE18A2B1B900A5D7C8 /* angular-locale_fr-bf.js */,
+				B8408FEF18A2B1B900A5D7C8 /* angular-locale_fr-bi.js */,
+				B8408FF018A2B1B900A5D7C8 /* angular-locale_fr-bj.js */,
+				B8408FF118A2B1B900A5D7C8 /* angular-locale_fr-bl.js */,
+				B8408FF218A2B1B900A5D7C8 /* angular-locale_fr-ca.js */,
+				B8408FF318A2B1B900A5D7C8 /* angular-locale_fr-cd.js */,
+				B8408FF418A2B1B900A5D7C8 /* angular-locale_fr-cf.js */,
+				B8408FF518A2B1B900A5D7C8 /* angular-locale_fr-cg.js */,
+				B8408FF618A2B1B900A5D7C8 /* angular-locale_fr-ch.js */,
+				B8408FF718A2B1B900A5D7C8 /* angular-locale_fr-ci.js */,
+				B8408FF818A2B1B900A5D7C8 /* angular-locale_fr-cm.js */,
+				B8408FF918A2B1B900A5D7C8 /* angular-locale_fr-dj.js */,
+				B8408FFA18A2B1B900A5D7C8 /* angular-locale_fr-fr.js */,
+				B8408FFB18A2B1B900A5D7C8 /* angular-locale_fr-ga.js */,
+				B8408FFC18A2B1B900A5D7C8 /* angular-locale_fr-gf.js */,
+				B8408FFD18A2B1B900A5D7C8 /* angular-locale_fr-gn.js */,
+				B8408FFE18A2B1B900A5D7C8 /* angular-locale_fr-gp.js */,
+				B8408FFF18A2B1B900A5D7C8 /* angular-locale_fr-gq.js */,
+				B840900018A2B1B900A5D7C8 /* angular-locale_fr-km.js */,
+				B840900118A2B1B900A5D7C8 /* angular-locale_fr-lu.js */,
+				B840900218A2B1B900A5D7C8 /* angular-locale_fr-mc.js */,
+				B840900318A2B1B900A5D7C8 /* angular-locale_fr-mf.js */,
+				B840900418A2B1B900A5D7C8 /* angular-locale_fr-mg.js */,
+				B840900518A2B1B900A5D7C8 /* angular-locale_fr-ml.js */,
+				B840900618A2B1B900A5D7C8 /* angular-locale_fr-mq.js */,
+				B840900718A2B1B900A5D7C8 /* angular-locale_fr-ne.js */,
+				B840900818A2B1B900A5D7C8 /* angular-locale_fr-re.js */,
+				B840900918A2B1B900A5D7C8 /* angular-locale_fr-yt.js */,
+				B840900A18A2B1B900A5D7C8 /* angular-locale_fr.js */,
+				B840900B18A2B1B900A5D7C8 /* angular-locale_gl-es.js */,
+				B840900C18A2B1B900A5D7C8 /* angular-locale_gl.js */,
+				B840900D18A2B1B900A5D7C8 /* angular-locale_gsw-ch.js */,
+				B840900E18A2B1B900A5D7C8 /* angular-locale_gsw.js */,
+				B840900F18A2B1B900A5D7C8 /* angular-locale_gu-in.js */,
+				B840901018A2B1B900A5D7C8 /* angular-locale_gu.js */,
+				B840901118A2B1B900A5D7C8 /* angular-locale_he-il.js */,
+				B840901218A2B1B900A5D7C8 /* angular-locale_he.js */,
+				B840901318A2B1B900A5D7C8 /* angular-locale_hi-in.js */,
+				B840901418A2B1B900A5D7C8 /* angular-locale_hi.js */,
+				B840901518A2B1B900A5D7C8 /* angular-locale_hr-hr.js */,
+				B840901618A2B1B900A5D7C8 /* angular-locale_hr.js */,
+				B840901718A2B1B900A5D7C8 /* angular-locale_hu-hu.js */,
+				B840901818A2B1B900A5D7C8 /* angular-locale_hu.js */,
+				B840901918A2B1B900A5D7C8 /* angular-locale_id-id.js */,
+				B840901A18A2B1B900A5D7C8 /* angular-locale_id.js */,
+				B840901B18A2B1B900A5D7C8 /* angular-locale_in.js */,
+				B840901C18A2B1B900A5D7C8 /* angular-locale_is-is.js */,
+				B840901D18A2B1B900A5D7C8 /* angular-locale_is.js */,
+				B840901E18A2B1B900A5D7C8 /* angular-locale_it-it.js */,
+				B840901F18A2B1B900A5D7C8 /* angular-locale_it-sm.js */,
+				B840902018A2B1B900A5D7C8 /* angular-locale_it.js */,
+				B840902118A2B1B900A5D7C8 /* angular-locale_iw.js */,
+				B840902218A2B1B900A5D7C8 /* angular-locale_ja-jp.js */,
+				B840902318A2B1B900A5D7C8 /* angular-locale_ja.js */,
+				B840902418A2B1B900A5D7C8 /* angular-locale_kn-in.js */,
+				B840902518A2B1B900A5D7C8 /* angular-locale_kn.js */,
+				B840902618A2B1B900A5D7C8 /* angular-locale_ko-kr.js */,
+				B840902718A2B1B900A5D7C8 /* angular-locale_ko.js */,
+				B840902818A2B1B900A5D7C8 /* angular-locale_ln-cd.js */,
+				B840902918A2B1B900A5D7C8 /* angular-locale_ln.js */,
+				B840902A18A2B1B900A5D7C8 /* angular-locale_lt-lt.js */,
+				B840902B18A2B1B900A5D7C8 /* angular-locale_lt.js */,
+				B840902C18A2B1B900A5D7C8 /* angular-locale_lv-lv.js */,
+				B840902D18A2B1B900A5D7C8 /* angular-locale_lv.js */,
+				B840902E18A2B1B900A5D7C8 /* angular-locale_ml-in.js */,
+				B840902F18A2B1B900A5D7C8 /* angular-locale_ml.js */,
+				B840903018A2B1B900A5D7C8 /* angular-locale_mr-in.js */,
+				B840903118A2B1B900A5D7C8 /* angular-locale_mr.js */,
+				B840903218A2B1B900A5D7C8 /* angular-locale_ms-my.js */,
+				B840903318A2B1B900A5D7C8 /* angular-locale_ms.js */,
+				B840903418A2B1B900A5D7C8 /* angular-locale_mt-mt.js */,
+				B840903518A2B1B900A5D7C8 /* angular-locale_mt.js */,
+				B840903618A2B1B900A5D7C8 /* angular-locale_nl-cw.js */,
+				B840903718A2B1B900A5D7C8 /* angular-locale_nl-nl.js */,
+				B840903818A2B1BA00A5D7C8 /* angular-locale_nl-sx.js */,
+				B840903918A2B1BA00A5D7C8 /* angular-locale_nl.js */,
+				B840903A18A2B1BA00A5D7C8 /* angular-locale_no.js */,
+				B840903B18A2B1BA00A5D7C8 /* angular-locale_or-in.js */,
+				B840903C18A2B1BA00A5D7C8 /* angular-locale_or.js */,
+				B840903D18A2B1BA00A5D7C8 /* angular-locale_pl-pl.js */,
+				B840903E18A2B1BA00A5D7C8 /* angular-locale_pl.js */,
+				B840903F18A2B1BA00A5D7C8 /* angular-locale_pt-br.js */,
+				B840904018A2B1BA00A5D7C8 /* angular-locale_pt-pt.js */,
+				B840904118A2B1BA00A5D7C8 /* angular-locale_pt.js */,
+				B840904218A2B1BA00A5D7C8 /* angular-locale_ro-ro.js */,
+				B840904318A2B1BA00A5D7C8 /* angular-locale_ro.js */,
+				B840904418A2B1BA00A5D7C8 /* angular-locale_ru-ru.js */,
+				B840904518A2B1BA00A5D7C8 /* angular-locale_ru.js */,
+				B840904618A2B1BA00A5D7C8 /* angular-locale_sk-sk.js */,
+				B840904718A2B1BA00A5D7C8 /* angular-locale_sk.js */,
+				B840904818A2B1BA00A5D7C8 /* angular-locale_sl-si.js */,
+				B840904918A2B1BA00A5D7C8 /* angular-locale_sl.js */,
+				B840904A18A2B1BA00A5D7C8 /* angular-locale_sq-al.js */,
+				B840904B18A2B1BA00A5D7C8 /* angular-locale_sq.js */,
+				B840904C18A2B1BA00A5D7C8 /* angular-locale_sr-cyrl-rs.js */,
+				B840904D18A2B1BA00A5D7C8 /* angular-locale_sr-latn-rs.js */,
+				B840904E18A2B1BA00A5D7C8 /* angular-locale_sr.js */,
+				B840904F18A2B1BA00A5D7C8 /* angular-locale_sv-se.js */,
+				B840905018A2B1BA00A5D7C8 /* angular-locale_sv.js */,
+				B840905118A2B1BA00A5D7C8 /* angular-locale_sw-tz.js */,
+				B840905218A2B1BA00A5D7C8 /* angular-locale_sw.js */,
+				B840905318A2B1BA00A5D7C8 /* angular-locale_ta-in.js */,
+				B840905418A2B1BA00A5D7C8 /* angular-locale_ta.js */,
+				B840905518A2B1BA00A5D7C8 /* angular-locale_te-in.js */,
+				B840905618A2B1BA00A5D7C8 /* angular-locale_te.js */,
+				B840905718A2B1BA00A5D7C8 /* angular-locale_th-th.js */,
+				B840905818A2B1BA00A5D7C8 /* angular-locale_th.js */,
+				B840905918A2B1BA00A5D7C8 /* angular-locale_tl.js */,
+				B840905A18A2B1BA00A5D7C8 /* angular-locale_tr-tr.js */,
+				B840905B18A2B1BA00A5D7C8 /* angular-locale_tr.js */,
+				B840905C18A2B1BA00A5D7C8 /* angular-locale_uk-ua.js */,
+				B840905D18A2B1BA00A5D7C8 /* angular-locale_uk.js */,
+				B840905E18A2B1BA00A5D7C8 /* angular-locale_ur-pk.js */,
+				B840905F18A2B1BA00A5D7C8 /* angular-locale_ur.js */,
+				B840906018A2B1BA00A5D7C8 /* angular-locale_vi-vn.js */,
+				B840906118A2B1BA00A5D7C8 /* angular-locale_vi.js */,
+				B840906218A2B1BA00A5D7C8 /* angular-locale_zh-cn.js */,
+				B840906318A2B1BA00A5D7C8 /* angular-locale_zh-hans-cn.js */,
+				B840906418A2B1BA00A5D7C8 /* angular-locale_zh-hk.js */,
+				B840906518A2B1BA00A5D7C8 /* angular-locale_zh-tw.js */,
+				B840906618A2B1BA00A5D7C8 /* angular-locale_zh.js */,
+				B840906718A2B1BA00A5D7C8 /* angular-locale_zu-za.js */,
+				B840906818A2B1BA00A5D7C8 /* angular-locale_zu.js */,
+			);
+			path = i18n;
+			sourceTree = "<group>";
+		};
+		B840906B18A2B1BA00A5D7C8 /* partials */ = {
+			isa = PBXGroup;
+			children = (
+				B840906C18A2B1BA00A5D7C8 /* .gitkeep */,
+				B840906D18A2B1BA00A5D7C8 /* list.html */,
+			);
+			path = partials;
+			sourceTree = "<group>";
+		};
+		B840906F18A2B1BA00A5D7C8 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				B840907018A2B1BA00A5D7C8 /* karma-e2e.conf.js */,
+				B840907118A2B1BA00A5D7C8 /* karma.conf.js */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		B840907318A2B1BA00A5D7C8 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				B840907418A2B1BA00A5D7C8 /* .gitkeep */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		B840907718A2B1BA00A5D7C8 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B840907818A2B1BA00A5D7C8 /* e2e-test.bat */,
+				B840907918A2B1BA00A5D7C8 /* e2e-test.sh */,
+				B840907A18A2B1BA00A5D7C8 /* test-all.sh */,
+				B840907B18A2B1BA00A5D7C8 /* test.bat */,
+				B840907C18A2B1BA00A5D7C8 /* test.sh */,
+				B840907D18A2B1BA00A5D7C8 /* update-angular.sh */,
+				B840907E18A2B1BA00A5D7C8 /* watchr.rb */,
+				B840907F18A2B1BA00A5D7C8 /* web-server.js */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		B840908018A2B1BA00A5D7C8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				B840908118A2B1BA00A5D7C8 /* e2e */,
+				B840908418A2B1BA00A5D7C8 /* lib */,
+				B840908918A2B1BA00A5D7C8 /* unit */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		B840908118A2B1BA00A5D7C8 /* e2e */ = {
+			isa = PBXGroup;
+			children = (
+				B840908218A2B1BA00A5D7C8 /* runner.html */,
+				B840908318A2B1BA00A5D7C8 /* scenarios.js */,
+			);
+			path = e2e;
+			sourceTree = "<group>";
+		};
+		B840908418A2B1BA00A5D7C8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B840908518A2B1BA00A5D7C8 /* angular */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B840908518A2B1BA00A5D7C8 /* angular */ = {
+			isa = PBXGroup;
+			children = (
+				B840908618A2B1BA00A5D7C8 /* angular-mocks.js */,
+				B840908718A2B1BA00A5D7C8 /* angular-scenario.js */,
+				B840908818A2B1BA00A5D7C8 /* version.txt */,
+			);
+			path = angular;
+			sourceTree = "<group>";
+		};
+		B840908918A2B1BA00A5D7C8 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				B840908A18A2B1BA00A5D7C8 /* controllersSpec.js */,
+				B840908B18A2B1BA00A5D7C8 /* directivesSpec.js */,
+				B840908C18A2B1BA00A5D7C8 /* filtersSpec.js */,
+				B840908D18A2B1BA00A5D7C8 /* servicesSpec.js */,
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		B840908E18A2C01C00A5D7C8 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B840909218A2CCDD00A5D7C8 /* data.json */,
+				B840908F18A2C01C00A5D7C8 /* data.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B840909018A2C03900A5D7C8 /* python */ = {
+			isa = PBXGroup;
+			children = (
+				B840909118A2C05100A5D7C8 /* csv-json.py */,
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B8408F4118A2B18D00A5D7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = B8408F4418A2B18D00A5D7C8 /* Build configuration list for PBXProject "IcixUICC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8408F4018A2B18D00A5D7C8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B8408F4518A2B18D00A5D7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B8408F4618A2B18D00A5D7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8408F4418A2B18D00A5D7C8 /* Build configuration list for PBXProject "IcixUICC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8408F4518A2B18D00A5D7C8 /* Debug */,
+				B8408F4618A2B18D00A5D7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8408F4118A2B18D00A5D7C8 /* Project object */;
+}

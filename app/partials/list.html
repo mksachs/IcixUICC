@@ -1,0 +1,22 @@
+<table class="main-list" ng-init="keys=['FirstName', 'LastName', 'StreetNo', 'StreetAddress', 'State']">
+
+  <tr transpose-table class="entry no{{$index}}" ng-class-even="'even'" ng-repeat="row in data" ng-init="outer_index=$index" ng-if="!is_transposed" ng-click="get_map(row, $index)">
+    <th ng-repeat="key in keys" ng-if="outer_index==0">{{row[key]}}</th>
+    <td ng-repeat="key in keys" ng-if="outer_index!=0">{{row[key]}}</td>
+  </tr>
+  
+  <tr transpose-table ng-repeat="key in keys" ng-init="outer_index=$index" ng-if="is_transposed">
+    <th ng-repeat="row in data" ng-if="$index==0" ng-click="get_map(row, $index)">{{row[key]}}</th>
+    <td class="entry no{{$index}}" ng-class-even="'even'" ng-repeat="row in data" ng-if="$index!=0" ng-click="get_map(row, $index)">{{row[key]}}</td>
+  </tr>
+  
+  <tfoot>
+    <tr>
+      <td ng-if="!is_transposed" colspan="{{keys.length}}"><button ng-click="transpose()">Transpose</button></td>
+      <td ng-if="is_transposed" colspan="{{data.length}}"><button ng-click="transpose()">Transpose</button></td>
+    </tr>
+  </tfoot>
+  
+</table>
+
+<div resize-map id="map"></div>
