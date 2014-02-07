@@ -1,6 +1,13 @@
 # Icix User Interface Coding Challenge Response
 
-This project is my response to the Icix user interface coding challenge. The challenge was to display 
+This project is my response to the Icix user interface coding challenge. The 
+challenge was to display tabular data using Angular.js and to allow the user to
+transpose the data. There were optional challenges of loading the data from a
+file and displaying a map (the data is names and addresses) when an item is
+selected. This response covers all of these items.
+
+This project is built using the [angular-seed](https://github.com/angular/angular-seed).
+Most of the files come directly from this seed project. 
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
